@@ -25,8 +25,15 @@
         "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
         "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3",
         "react/dns": "^1.1",
-        "react/promise": "~2.1|~1.2"
+        "react/promise": "dev-master as 2.999.999",
+        "react/promise-timer": "dev-promise-3 as 1.6.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/WyriHaximus-labs/promise-timer"
+        }
+    ],
     "require-dev": {
         "clue/block-react": "~1.0",
         "phpunit/phpunit": "^7.0 || ^6.0 || ^5.0 || ^4.8.35"
